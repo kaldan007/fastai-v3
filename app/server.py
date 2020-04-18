@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/11UjCM5Na_ilGdQCkvh9INBeKu9cMAYc1?alt=media&key=AIzaSyAXjfwcne1znPiK5fLba3osabMRAfXN4uw'
+export_file_name = 'tenzinNet.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 path = Path(__file__).parent
 
 app = Starlette()
